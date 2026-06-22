@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insights · Kpifinity</title>
+<meta name="description" content="A point of view on defensible AI, regulation in practice, and building in public.">
+<link rel="canonical" href="https://kpifinity.com/insights.html">
+<meta name="theme-color" content="#F3EFE7">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kpifinity">
+<meta property="og:title" content="Insights · Kpifinity">
+<meta property="og:description" content="A point of view on defensible AI, regulation in practice, and building in public.">
+<meta property="og:url" content="https://kpifinity.com/insights.html">
+<meta property="og:image" content="https://kpifinity.com/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Insights · Kpifinity">
+<meta name="twitter:description" content="A point of view on defensible AI, regulation in practice, and building in public.">
+<meta name="twitter:image" content="https://kpifinity.com/assets/img/og-image.png">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav class="site" aria-label="Primary"><div class="wrap nav-in">
+  <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="">Kpifinity</a>
+  <button class="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks"><span></span><span></span><span></span></button>
+  <div class="nav-links" id="navlinks"><a href="capabilities.html">Capabilities</a><a href="work.html">Work</a><a href="studio.html">Studio</a><a href="insights.html" class="active" aria-current="page">Insights</a><a href="firm.html">Firm</a><a class="nav-cta" href="contact.html">Start a conversation</a></div>
+</div></nav>
+<main id="main">
+<header class="page-hero"><div class="wrap reveal">
+  <span class="lbl">Insights</span>
+  <h1>A point of view on defensible AI, delivery, and design.</h1>
+  <p class="lead">We write about the things we build and the rooms we have spent sixteen years in. A selection of our thinking follows. More is published in our newsletter, The Emerging Edge.</p>
+</div></header>
+
+<section class="blk tight"><div class="wrap">
+  <div class="capdetail"><div><span class="idx">Thesis</span><h2>Provenance, not determinism.</h2></div>
+    <div><p>Defensibility in 2026 is not about a model being deterministic, and it is certainly not about vibes. It is about provenance: being able to reconstruct, after the fact, exactly how a decision was made, on what data, against which rule. Where the model runs matters. Whether you can defend its decision matters more. This is the idea SKI is built around, and the lens we bring to every AI governance conversation.</p></div>
+  </div>
+  <div class="capdetail"><div><span class="idx">Regulation</span><h2>The EU AI Act and DORA, in practice.</h2></div>
+    <div><p>The headlines describe the rules. The harder question is what they require of a regulated operator on a Tuesday: which decisions need to be explainable, what evidence an auditor will actually ask for, and how to put AI into core operations without creating a liability you cannot defend. We translate the regulation into delivery, not slideware.</p></div>
+  </div>
+  <div class="capdetail"><div><span class="idx">Build in public</span><h2>Lessons from building SKI.</h2></div>
+    <div><p>We build in the open. From the Regulatory Sentinel proof of concept to the framework specification, we share what works, what does not, and what we learned trying. It is the most honest form of credibility we know.</p></div>
+  </div>
+</div></section>
+
+<section class="cta-band"><div class="wrap">
+  <span class="lbl">Newsletter</span>
+  <h2 style="margin-top:18px">The Emerging Edge.</h2>
+  <p style="max-width:46ch;margin:0 auto 28px;color:var(--soft)">Notes on sovereign AI for regulated industries, the bifurcation of AI power, and building in public. Written for people who have to make this work.</p>
+  <a class="btn" href="mailto:hello@kpifinity.com?subject=Subscribe to The Emerging Edge">Subscribe</a>
+</div></section>
+</main>
+<footer class="site"><div class="wrap">
+  <div class="foot-top">
+    <div>
+      <div class="foot-brand"><img src="assets/img/logo.svg" alt="">Kpifinity</div>
+      <p class="foot-tag">A senior consultancy for regulated industries, and the studio behind SKI and FinLII. KPI, taken to infinity.</p>
+    </div>
+    <div class="fcol"><h5>Firm</h5>
+      <a href="capabilities.html">Capabilities</a><a href="work.html">Work</a>
+      <a href="studio.html">Studio</a><a href="insights.html">Insights</a>
+      <a href="firm.html">The firm</a><a href="contact.html">Contact</a>
+    </div>
+    <div class="fcol"><h5>Studio &amp; research</h5>
+      <a href="https://skiframework.org">SKI Framework</a>
+      <a href="https://finlii.com">FinLII</a>
+      <a href="https://github.com/kpifinity">GitHub</a>
+    </div>
+    <div class="fcol"><h5>Connect</h5>
+      <a href="mailto:hello@kpifinity.com">hello@kpifinity.com</a>
+      <a href="https://www.linkedin.com/company/kpifinity">LinkedIn</a>
+      <a href="#">Calgary, Alberta</a>
+    </div>
+  </div>
+  <div class="foot-bot"><span>&copy; 2026 Kpifinity Inc. &middot; Calgary, Alberta, Canada</span>
+  <span>SKI Framework published under CC BY 4.0</span></div>
+</div></footer>
+<script>
+(function(){
+  var n=document.querySelector('nav.site'), b=document.querySelector('.nav-burger');
+  if(b){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu');});}
+  document.body.classList.add('reveal-ready');
+  var els=document.querySelectorAll('section.blk, .cta-band, .meta');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('seen');io.unobserve(e.target);}});},{threshold:0.12});
+    els.forEach(function(el){io.observe(el);});
+  } else { els.forEach(function(el){el.classList.add('seen');}); }
+})();
+</script>
+</body>
+</html>
