@@ -1,95 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-CA">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Insights · Kpifinity</title>
-<meta name="description" content="A point of view on defensible AI, regulation in practice, and building in public.">
+<title>Insights — The Emerging Edge · KpiFinity</title>
+<meta name="description" content="Field notes on design, delivery and AI in regulated industries, from The Emerging Edge newsletter.">
 <link rel="canonical" href="https://kpifinity.com/insights.html">
-<meta name="theme-color" content="#F3EFE7">
+<meta name="theme-color" content="#11171B">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Kpifinity">
-<meta property="og:title" content="Insights · Kpifinity">
-<meta property="og:description" content="A point of view on defensible AI, regulation in practice, and building in public.">
+<meta property="og:site_name" content="KpiFinity">
+<meta property="og:locale" content="en_CA">
+<meta property="og:title" content="Insights — The Emerging Edge · KpiFinity">
+<meta property="og:description" content="Field notes on design, delivery and AI in regulated industries, from The Emerging Edge newsletter.">
 <meta property="og:url" content="https://kpifinity.com/insights.html">
 <meta property="og:image" content="https://kpifinity.com/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Insights · Kpifinity">
-<meta name="twitter:description" content="A point of view on defensible AI, regulation in practice, and building in public.">
-<meta name="twitter:image" content="https://kpifinity.com/assets/img/og-image.png">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/site.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<nav class="site" aria-label="Primary"><div class="wrap nav-in">
-  <a class="brand" href="index.html"><img src="assets/img/logo.svg" alt="">Kpifinity</a>
-  <button class="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks"><span></span><span></span><span></span></button>
-  <div class="nav-links" id="navlinks"><a href="capabilities.html">Capabilities</a><a href="work.html">Work</a><a href="studio.html">Studio</a><a href="insights.html" class="active" aria-current="page">Insights</a><a href="firm.html">Firm</a><a class="nav-cta" href="contact.html">Start a conversation</a></div>
-</div></nav>
+<div class="page" style="display: flex; flex-direction: column; min-height: 100vh; background: #F5F2EA">
+<header class="site-header" style="border-bottom: 1px solid #DDD6C8; flex-shrink: 0">
+<div class="wrap" style="height: 92px; display: flex; align-items: center; justify-content: space-between">
+<a href="index.html" aria-label="KpiFinity home" style="display: flex; align-items: center; gap: 12px; color: #14171C; text-decoration: none">
+<svg width="40" height="40" viewBox="0 0 48 48" aria-hidden="true" style="display: block; flex-shrink: 0"><rect width="48" height="48" fill="#0E6B66"></rect><path fill="#F4F6F5" d="M9 13h4.4v22H9z M13.4 22.2 19.8 13h5L13.4 29.2z M16 23.4l3-2.8L25.8 35h-5z M26.8 19H41v3.8H26.8z M29.2 22.8h3.6V35h-3.6z M35.6 22.8h3.6v8.4c0 .8.4 1.2 1.2 1.2H41V35h-1.6c-2.4 0-3.8-1.4-3.8-3.8z"></path></svg>
+<span class="serif" style="font-size: 26px; font-weight: 600; letter-spacing: -0.01em">KpiFinity</span>
+</a>
+<button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+<nav class="nav" id="site-nav" aria-label="Primary" style="display: flex; align-items: center; gap: 34px">
+<a href="consulting.html">Consulting</a>
+<a href="ai-data.html">AI &amp; Data</a>
+<a href="aim.html">AIM</a>
+<a href="industries.html">Industries</a>
+<a href="insights.html" aria-current="page" style="text-decoration: underline; text-underline-offset: 8px; text-decoration-thickness: 2px">Insights</a>
+<a href="about.html">About</a>
+<a href="contact.html" class="btn btn-primary" style="height: 44px; padding: 0 20px; background: #0E6B66; color: #FFFFFF">Contact us</a>
+</nav>
+</div>
+</header>
 <main id="main">
-<header class="page-hero"><div class="wrap reveal">
-  <span class="lbl">Insights</span>
-  <h1>A point of view on defensible AI, delivery, and design.</h1>
-  <p class="lead">We write about the things we build and the rooms we have spent sixteen years in. A selection of our thinking follows. More is published in our newsletter, The Emerging Edge.</p>
-</div></header>
 
-<section class="blk tight"><div class="wrap">
-  <div class="capdetail"><div><span class="idx">Thesis</span><h2>Provenance, not determinism.</h2></div>
-    <div><p>Defensibility in 2026 is not about a model being deterministic, and it is certainly not about vibes. It is about provenance: being able to reconstruct, after the fact, exactly how a decision was made, on what data, against which rule. Where the model runs matters. Whether you can defend its decision matters more. This is the idea SKI is built around, and the lens we bring to every AI governance conversation.</p></div>
-  </div>
-  <div class="capdetail"><div><span class="idx">Regulation</span><h2>The EU AI Act and DORA, in practice.</h2></div>
-    <div><p>The headlines describe the rules. The harder question is what they require of a regulated operator on a Tuesday: which decisions need to be explainable, what evidence an auditor will actually ask for, and how to put AI into core operations without creating a liability you cannot defend. We translate the regulation into delivery, not slideware.</p></div>
-  </div>
-  <div class="capdetail"><div><span class="idx">Build in public</span><h2>Lessons from building SKI.</h2></div>
-    <div><p>We build in the open. From the Regulatory Sentinel proof of concept to the framework specification, we share what works, what does not, and what we learned trying. It is the most honest form of credibility we know.</p></div>
-  </div>
-</div></section>
+<section class="dark" style="background: #11171B; color: #EDE8DD; padding: 112px 0">
+<div class="wrap" style="display: grid; grid-template-columns: minmax(0, 1fr) 400px; gap: 96px; align-items: end">
+<div style="display: flex; flex-direction: column">
+<span class="eyebrow">Insights · The Emerging Edge</span>
+<h1 class="serif" style="margin-top: 24px; font-size: 68px; line-height: 1.04; color: #F5F2EA">Field notes on design, delivery and <em style="font-style: italic; color: #8CCFC7">AI that earns trust.</em></h1>
+<p style="margin-top: 28px; width: 100%; max-width: 680px; font-size: 20px; line-height: 1.6; color: #AEB6B3">The Emerging Edge is KpiFinity’s newsletter for leaders in regulated industries — practical perspectives from the people doing the work, published on LinkedIn.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; padding: 32px; border: 1px solid #3A4750">
+<span class="mono" style="font-size: 12px; letter-spacing: 0.12em; color: #8A949A">SUBSCRIBE</span>
+<p class="serif" style="font-size: 24px; line-height: 1.3">New editions, straight to your LinkedIn feed and inbox.</p>
+<a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7292278568582008832" class="btn btn-light" style="align-self: flex-start">Subscribe on LinkedIn ↗</a>
+</div>
+</div>
+</section>
 
-<section class="cta-band"><div class="wrap">
-  <span class="lbl">Newsletter</span>
-  <h2 style="margin-top:18px">The Emerging Edge.</h2>
-  <p style="max-width:46ch;margin:0 auto 28px;color:var(--soft)">Notes on sovereign AI for regulated industries, the bifurcation of AI power, and building in public. Written for people who have to make this work.</p>
-  <a class="btn" href="mailto:hello@kpifinity.com?subject=Subscribe to The Emerging Edge">Subscribe</a>
-</div></section>
+<section style="padding: 120px 0">
+<div class="wrap">
+<div style="display: flex; flex-direction: column; gap: 20px; width: 100%; max-width: 860px">
+<span class="eyebrow">What we write about</span>
+<h2 class="serif" style="font-size: 48px; line-height: 1.1">Three themes, drawn from our three practices.</h2>
+</div>
+<div style="margin-top: 64px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+<div class="card" style="padding: 40px; display: flex; flex-direction: column">
+<span class="mono" style="font-size: 13px; color: #0E6B66">01 · DESIGN</span>
+<h3 class="serif" style="margin-top: 20px; font-size: 34px; line-height: 1.1">Designing for trust</h3>
+<p class="body" style="margin-top: 14px">How research, accessibility and design systems make regulated products easier to use — and easier to defend.</p>
+<ul class="list" style="margin-top: 24px; border-top: 1px solid #E2DBCC"><li>Accessibility as a design standard</li><li>Design systems at enterprise scale</li><li>Designing conversational and AI interfaces</li></ul>
+</div>
+<div class="card" style="padding: 40px; display: flex; flex-direction: column">
+<span class="mono" style="font-size: 13px; color: #0E6B66">02 · DELIVERY</span>
+<h3 class="serif" style="margin-top: 20px; font-size: 34px; line-height: 1.1">Delivery under governance</h3>
+<p class="body" style="margin-top: 14px">Running transformation and agile delivery inside organizations where controls, audits and dependencies are real.</p>
+<ul class="list" style="margin-top: 24px; border-top: 1px solid #E2DBCC"><li>Agile at scale in regulated settings</li><li>Managing cross-team dependencies</li><li>Measuring outcomes, not activity</li></ul>
+</div>
+<div class="card" style="padding: 40px; display: flex; flex-direction: column">
+<span class="mono" style="font-size: 13px; color: #0E6B66">03 · AI &amp; DATA</span>
+<h3 class="serif" style="margin-top: 20px; font-size: 34px; line-height: 1.1">Responsible, sovereign AI</h3>
+<p class="body" style="margin-top: 14px">Moving AI from pilot to production while keeping data, models and accountability where they belong.</p>
+<ul class="list" style="margin-top: 24px; border-top: 1px solid #E2DBCC"><li>Sovereign AI and data residency</li><li>AI governance and regulation</li><li>Applied ML in operations</li></ul>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding: 112px 0; background: #FFFFFF; border-top: 1px solid #E2DBCC; border-bottom: 1px solid #E2DBCC">
+<div class="wrap" style="display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 96px; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<span class="eyebrow">Speaking &amp; teaching</span>
+<h2 class="serif" style="font-size: 44px; line-height: 1.12">Briefings, workshops and talks for leadership teams and industry events.</h2>
+<p class="body">Our team teaches at SAIT, Calgary, and delivers accredited PMI and ICAgile training. We also run executive briefings on AI in regulated operations and design-thinking workshops for delivery teams.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<a href="contact.html" class="btn btn-primary" style="background: #0E6B66; align-self: flex-start">Invite us to speak</a>
+<a href="consulting.html#training" style="font-weight: 600; font-size: 15px; color: #0E6B66">See training and briefings →</a>
+</div>
+</div>
+</section>
+
+<section class="dark" style="flex-grow: 1; display: flex; align-items: center; padding: 112px 0; background: #0E6B66; color: #FFFFFF">
+<div class="wrap" style="display: flex; justify-content: space-between; align-items: flex-end; gap: 80px">
+<div style="display: flex; flex-direction: column; gap: 22px; width: 100%; max-width: 760px">
+<h2 class="serif" style="font-size: 56px; line-height: 1.08">Prefer a conversation to a newsletter?</h2>
+<p style="font-size: 19px; line-height: 1.6; color: #E4ECE8">Tell us what you’re working through. We’re glad to compare notes.</p>
+</div>
+<div style="display: flex; gap: 14px; flex-shrink: 0">
+<a href="contact.html" class="btn btn-light">Start a conversation</a>
+</div>
+</div>
+</section>
+
 </main>
-<footer class="site"><div class="wrap">
-  <div class="foot-top">
-    <div>
-      <div class="foot-brand"><img src="assets/img/logo.svg" alt="">Kpifinity</div>
-      <p class="foot-tag">A senior consultancy for regulated industries, and the studio behind SKI and FinLII. KPI, taken to infinity.</p>
-    </div>
-    <div class="fcol"><h5>Firm</h5>
-      <a href="capabilities.html">Capabilities</a><a href="work.html">Work</a>
-      <a href="studio.html">Studio</a><a href="insights.html">Insights</a>
-      <a href="firm.html">The firm</a><a href="contact.html">Contact</a>
-    </div>
-    <div class="fcol"><h5>Studio &amp; research</h5>
-      <a href="https://skiframework.org">SKI Framework</a>
-      <a href="https://finlii.com">FinLII</a>
-      <a href="https://github.com/kpifinity">GitHub</a>
-    </div>
-    <div class="fcol"><h5>Connect</h5>
-      <a href="mailto:hello@kpifinity.com">hello@kpifinity.com</a>
-      <a href="https://www.linkedin.com/company/kpifinity">LinkedIn</a>
-      <a href="#">Calgary, Alberta</a>
-    </div>
-  </div>
-  <div class="foot-bot"><span>&copy; 2026 Kpifinity Inc. &middot; Calgary, Alberta, Canada</span>
-  <span>SKI Framework published under CC BY 4.0</span></div>
-</div></footer>
-<script>
-(function(){
-  var n=document.querySelector('nav.site'), b=document.querySelector('.nav-burger');
-  if(b){b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Close menu':'Open menu');});}
-  document.body.classList.add('reveal-ready');
-  var els=document.querySelectorAll('section.blk, .cta-band, .meta');
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('seen');io.unobserve(e.target);}});},{threshold:0.12});
-    els.forEach(function(el){io.observe(el);});
-  } else { els.forEach(function(el){el.classList.add('seen');}); }
-})();
-</script>
+<footer class="footer" style="background: #11171B; color: #C9CFCC; padding: 88px 0 40px; flex-shrink: 0">
+<div class="wrap">
+<div style="display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.2fr; gap: 56px">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<span style="display: flex; align-items: center; gap: 12px"><svg width="36" height="36" viewBox="0 0 48 48" aria-hidden="true" style="display: block; flex-shrink: 0"><rect width="48" height="48" fill="#0E6B66"></rect><path fill="#F4F6F5" d="M9 13h4.4v22H9z M13.4 22.2 19.8 13h5L13.4 29.2z M16 23.4l3-2.8L25.8 35h-5z M26.8 19H41v3.8H26.8z M29.2 22.8h3.6V35h-3.6z M35.6 22.8h3.6v8.4c0 .8.4 1.2 1.2 1.2H41V35h-1.6c-2.4 0-3.8-1.4-3.8-3.8z"></path></svg><span class="serif" style="font-size: 26px; font-weight: 600; color: #FFFFFF">KpiFinity</span></span>
+<p style="font-size: 15px; line-height: 1.6; color: #AEB6B3; width: 100%; max-width: 320px">Design, delivery, AI &amp; data and venture partnership for organizations where the stakes are high. Headquartered in Calgary, Canada.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 12px; letter-spacing: 0.12em; color: #8A949A">PRACTICES</span>
+<a href="consulting.html">Consulting</a><a href="ai-data.html">AI &amp; Data</a><a href="aim.html">AIM Partnerships</a><a href="consulting.html#training">Training</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 12px; letter-spacing: 0.12em; color: #8A949A">COMPANY</span>
+<a href="about.html">About</a><a href="about.html#leadership">Leadership</a><a href="industries.html">Industries</a><a href="insights.html">Insights</a><a href="https://skiframework.org">Open source ↗</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px">
+<span class="mono" style="font-size: 12px; letter-spacing: 0.12em; color: #8A949A">CONTACT</span>
+<a href="mailto:hello@kpifinity.com">hello@kpifinity.com</a><span style="font-size: 15px">Calgary, Alberta, Canada</span><a href="https://www.linkedin.com/company/kpifinity/">LinkedIn ↗</a><a href="contact.html">Contact →</a>
+</div>
+</div>
+<div style="margin-top: 72px; padding-top: 28px; border-top: 1px solid #253038; display: flex; justify-content: space-between; font-size: 13px; color: #8A949A">
+<span style="width: 100%; max-width: 860px; line-height: 1.6">© 2026 KPIFinity Inc. All rights reserved. SKI Framework™ is a trademark of KPIFinity Inc. PMI and PMP are registered marks of the Project Management Institute, Inc. SAFe® is a registered trademark of Scaled Agile, Inc.</span>
+<span style="display: flex; gap: 24px"><a href="legal.html#privacy" style="font-size: 13px">Privacy</a><a href="legal.html#terms" style="font-size: 13px">Terms</a><a href="legal.html#accessibility" style="font-size: 13px">Accessibility</a></span>
+</div>
+</div>
+</footer>
+</div>
 </body>
 </html>
